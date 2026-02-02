@@ -35,7 +35,7 @@ stopifnot(is.data.frame(data))
 
 CONFIG <- list(
   seed = 1234,
-  train_prop = 0.70,     # <-- real 70/30 split (fixes mismatch)
+  train_prop = 0.60,     
   out_dir = ".",
   results_xlsx = "gamm_model_comparison_holdout.xlsx",
   summary_txt  = "gamm_models_summary.txt",
